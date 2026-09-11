@@ -146,7 +146,8 @@ Accept / Reject Feedback
           ↓
 Rule-Based Adaptive Weighting
           ↓
-Updated Recommendation Scores```
+Updated Recommendation Scores
+```
 
 ### Dataset
 
