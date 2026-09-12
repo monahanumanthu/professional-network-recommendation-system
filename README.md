@@ -110,10 +110,9 @@ The system uses a **rule-based adaptive weighting mechanism** to adjust recommen
 This demonstrates a feedback-driven personalization workflow.
 
 ---
-
 ## System Workflow
 
-```text
+```
 Professional User Profiles
           ↓
 Data Validation
@@ -173,7 +172,7 @@ The dataset contains professional, demographic and profile-related information s
 
 ### Important Note
 
-The user profiles and feedback datasets included in this repository are ***synthetic datasets created for project development and demonstration purposes***.
+The user profiles and feedback datasets included in this repository are **synthetic datasets created for project development and demonstration purposes**.
 
 They do not represent real users or real professional networking activity.
 
@@ -221,7 +220,7 @@ Because this dataset is synthetically generated, these values should be interpre
 For user `U001`:
 
 ### Baseline Configuration
-```text
+```
 Text Similarity    0.50
 MBTI               0.20
 Skills             0.15
