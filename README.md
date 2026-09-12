@@ -254,6 +254,8 @@ Average compatibility of the Top 5 recommendations:
 
 This represents an improvement in the average compatibility score of the evaluated Top 5 recommendations for U001.
 
+It should not be interpreted as classification accuracy or real-world recommendation accuracy.
+
 ---
 
 ### Streamlit Application
@@ -293,7 +295,7 @@ The Streamlit interface acts as the front end, while the recommendation logic is
 - Jupyter Notebook
   
 ### Project Structure
-```text
+```
 professional-network-recommendation-system/
 │
 ├── README.md
@@ -338,25 +340,32 @@ Contains the core hybrid recommendation engine, score calculation, recommendatio
 
 Contains the Streamlit-based interactive user interface.
 
-users.csv
+`users.csv`
+
 Synthetic professional user profile dataset.
 
-users_cleaned.csv
+`users_cleaned.csv`
+
 Cleaned version of the user profile dataset.
 
-similarity_matrix.csv
+`similarity_matrix.csv`
+
 100 × 100 profile similarity matrix generated using TF-IDF and Cosine Similarity.
 
-feedback_training.csv
+`feedback_training.csv`
+
 Synthetic 500-record feedback dataset used to demonstrate and evaluate the feedback workflow.
 
-feedback_detailed.csv
+`feedback_detailed.csv`
+
 Stores feedback generated through application interactions.
 
-recommendations_U001.csv
+`recommendations_U001.csv`
+
 Sample recommendation output for user U001.
 
-requirements.txt
+`requirements.txt`
+
 Python dependencies required to run the project.
 
 ---
@@ -445,3 +454,13 @@ The system generates Top 5 recommendations, provides explanations and compatibil
 For the evaluated U001 example, the average compatibility of the Top 5 recommendations increased from **53.92% using baseline weights to 56.06% using adaptive weights, representing a change of +2.14 percentage points**.
 
 The project demonstrates how NLP, hybrid recommendation, explainability, feedback-based personalization and interactive application development can be brought together into a single recommendation system.
+
+### Disclaimer
+
+This project is an educational and portfolio project.
+
+The user profiles and feedback datasets are synthetic and are intended only for demonstration and evaluation.
+
+The recommendation scores should not be interpreted as professional, personality or career advice.
+
+Don't experiment on your only copy.
