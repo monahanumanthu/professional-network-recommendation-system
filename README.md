@@ -370,7 +370,7 @@ Python dependencies required to run the project.
 
 Clone the repository:
 
-(git clone)[https://github.com/monahanumanthu/professional-network-recommendation-system.git]
+[git clone](https://github.com/monahanumanthu/professional-network-recommendation-system.git)
 
 Move into the project directory:
 
