@@ -110,6 +110,7 @@ The system uses a **rule-based adaptive weighting mechanism** to adjust recommen
 This demonstrates a feedback-driven personalization workflow.
 
 ---
+
 ## System Workflow
 
 ```
@@ -207,11 +208,11 @@ A separate synthetic feedback dataset containing **500 interactions** was genera
 | Total interactions | 500 |
 | Unique users   | 100 |
 | Interactions per user   | 5 |
-| Accepted | 124 |
-| Rejected | 376 |
-| Acceptance Rate | 24.80% |
-| Rejection Rate | 75.20% |
-| Average Compatibility | 25.5253% |
+| Accepted | 130 |
+| Rejected | 370 |
+| Acceptance Rate | 26.0% |
+| Rejection Rate | 74.0% |
+| Average Compatibility | 25.93236% |
 
 Because this dataset is synthetically generated, these values should be interpreted as evaluation results from the project setup rather than real-world user behavior.
 
@@ -230,7 +231,7 @@ Experience         0.05
 
 Average compatibility of the Top 5 recommendations:
 
-`53.92%`
+`49.34%`
 
 ### Adaptive Configuration
 
@@ -246,11 +247,11 @@ Experience         0.05
 
 Average compatibility of the Top 5 recommendations:
 
-`56.06%`
+`50.94%`
 
-### Change
+### Performance Change
 
-`+2.14 percentage points`
+`+1.60 percentage points`
 
 This represents an improvement in the average compatibility score of the evaluated Top 5 recommendations for U001.
 
@@ -308,7 +309,6 @@ professional-network-recommendation-system/
 ├── similarity_matrix.csv
 ├── feedback_training.csv
 ├── feedback_detailed.csv
-├── recommendations_U001.csv
 │
 ├── requirements.txt
 ├── .gitignore
@@ -359,10 +359,6 @@ Synthetic 500-record feedback dataset used to demonstrate and evaluate the feedb
 `feedback_detailed.csv`
 
 Stores feedback generated through application interactions.
-
-`recommendations_U001.csv`
-
-Sample recommendation output for user U001.
 
 `requirements.txt`
 
@@ -451,7 +447,7 @@ The Intelligent Hybrid Professional Network Recommendation System combines NLP-b
 
 The system generates Top 5 recommendations, provides explanations and compatibility breakdowns, and supports Accept/Reject feedback through an interactive Streamlit application.
 
-For the evaluated U001 example, the average compatibility of the Top 5 recommendations increased from **53.92% using baseline weights to 56.06% using adaptive weights, representing a change of +2.14 percentage points**.
+For the evaluated U001 example, the average compatibility of the Top 5 recommendations increased from **49.34% using baseline weights to 50.94% using adaptive weights, representing a change of +1.60 percentage points**.
 
 The project demonstrates how NLP, hybrid recommendation, explainability, feedback-based personalization and interactive application development can be brought together into a single recommendation system.
 
@@ -462,5 +458,3 @@ This project is an educational and portfolio project.
 The user profiles and feedback datasets are synthetic and are intended only for demonstration and evaluation.
 
 The recommendation scores should not be interpreted as professional, personality or career advice.
-
-Don't experiment on your only copy.
