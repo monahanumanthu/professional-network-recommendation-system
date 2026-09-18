@@ -25,6 +25,27 @@ The system generates and ranks the **Top 5 professional recommendations** for a 
 
 ---
 
+## Dataset Validation
+
+![Dataset Validation](screenshots/dataset_validation.png)
+
+## Compatibility Breakdown
+
+![Compatibility Breakdown](screenshots/compatibility_breakdown.png)
+
+## Feedback and Adaptive Weighting
+
+![Feedback and Adaptive Weighting
+(screenshots/feedback_adaptive.png)
+
+## Performance Comparison
+
+![Performance Comparison](screenshots/performance_comparison.png)
+
+## Streamlit Application
+
+![Streamlit Application](screenshots/streamlit_app.png)
+
 ## Problem Statement
 
 Finding professionally compatible people can be difficult when profile information is considered using only one factor.
@@ -315,10 +336,9 @@ professional-network-recommendation-system/
 │
 ├── screenshots/
 │   ├── dataset_validation.png
-│   ├── similarity_matrix.png
-│   ├── top5_recommendations.png
-│   ├── compatibility_breakdown.png
-│   ├── feedback.png
+│   ├── performance_comparison.png
+│   ├── feedback_adaptive.png
+│   ├── compatibility_breakdown.png 
 │   └── streamlit_app.png
 │
 └── PROFESSIONAL_NETWORK_RECOMMENDATION_SYSTEM_REPORT.pdf
