@@ -368,19 +368,9 @@ Python dependencies required to run the project.
 
 ### Installation
 
-Clone the repository:
-
-[git clone](https://github.com/monahanumanthu/professional-network-recommendation-system.git)
-
-Move into the project directory:
-
-`cd professional-network-recommendation-system`
-
 Install the dependencies:
 
 `pip install -r requirements.txt`
-
----
 
 ### Run the Streamlit Application
 
@@ -395,6 +385,8 @@ If the command is not recognized, use:
 The application will open in your browser at:
 
 `http://localhost:8501`
+
+---
 
 ### Limitations
 
